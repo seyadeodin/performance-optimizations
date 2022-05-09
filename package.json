@@ -7,12 +7,14 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "api": "json-server ./src/api/server.js --host 192.168.1.62 --port 3333 --delay 700"
   },
   "dependencies": {
     "expo": "~45.0.0",
     "expo-status-bar": "~1.3.0",
     "react": "17.0.2",
+    "react-devtools": "^4.24.5",
     "react-dom": "17.0.2",
     "react-native": "0.68.1",
     "react-native-web": "0.17.7"
@@ -21,6 +23,7 @@
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
+    "json-server": "^0.17.0",
     "typescript": "~4.3.5"
   },
   "private": true
